@@ -1,0 +1,81 @@
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: Fill (1, 440px) px;
+    height: Hug (718px) px;
+    padding: 96px 112px 96px 112px;
+    gap: 32px;
+    opacity: 0px;
+}
+
+/*hero-section-left*/
+
+.image-container {
+  position: relative;
+  width: 592px;
+  height: 526px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+#lock-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 392px;
+  height: 462px;
+  top: 22px;
+  left: 100px;
+  gap: 0px;
+  border-radius: 47px 0px 0px 0px;
+  opacity: 0px;
+}
+
+#lock-frame {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+    width: 414px;
+    height: 488px;
+    top: 9px;
+    left: 89px;
+    gap: 0px;
+    border-radius: 47px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+#p-up-hero-section-left {
+    position: absolute;
+    left:120px;
+    z-index: 1;
+    background-color: #7839EE;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    width: Hug (341px)px;
+    height: Hug (56px)px;
+    padding: 10px 16px 16px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+
+}
+
+#p-down-hero-section-left {
+    position: absolute;
+    top: 561px;
+    left: 437px;
+    z-index: 1;
+    background-color: #7839EE;
+    width: Hug (278px) px;
+    height: Fixed (55px) px;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+
+/*hero-section-right*/
