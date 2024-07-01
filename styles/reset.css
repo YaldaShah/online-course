@@ -2,13 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Kalameh';
+    src: url(../Kalameh/);
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
     background: #010003;
     color: aliceblue;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Kalameh', sans-serif;
+    width: auto;
+    height: 616.33px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 
 button {

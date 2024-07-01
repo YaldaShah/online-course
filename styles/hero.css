@@ -2,65 +2,61 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    width: Fill (1, 440px) px;
-    height: Hug (718px) px;
+    /* width: 440px;
+    height: 712px; */
     padding: 96px 112px 96px 112px;
     gap: 32px;
-    opacity: 0px;
+    opacity: 1;
 }
 
 /*hero-section-left*/
 
 .image-container {
-  position: relative;
-  width: 592px;
-  height: 526px;
-  gap: 0px;
-  opacity: 0px;
+    position: relative;
+    width: 392px;
+    height: 462px;
+    top: 0px;
+    left: 0px;
 }
 
 #lock-bg {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 392px;
-  height: 462px;
   top: 22px;
   left: 100px;
   gap: 0px;
   border-radius: 47px 0px 0px 0px;
-  opacity: 0px;
 }
 
 #lock-frame {
   position: absolute;
+  position: absolute;
+  top: -5%;
+  left: -5%;
+    position: absolute;
   top: -5%;
   left: -5%;
     width: 414px;
     height: 488px;
     top: 9px;
     left: 89px;
-    gap: 0px;
     border-radius: 47px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
 }
 
 #p-up-hero-section-left {
     position: absolute;
     left:120px;
     z-index: 1;
-    background-color: #7839EE;
+    background-color: var(--primary-color);
     font-size: 30px;
     font-weight: 600;
     line-height: 36px;
     text-align: left;
-    width: Hug (341px)px;
-    height: Hug (56px)px;
+    width: 341px;
+    height: 56px;
     padding: 10px 16px 16px 16px;
     gap: 10px;
     border-radius: 8px;
-    opacity: 0px;
+    opacity: 1;
 }
 
 #p-down-hero-section-left {
@@ -69,12 +65,12 @@
     left: 437px;
     z-index: 1;
     background-color: #7839EE;
-    width: Hug (278px) px;
-    height: Fixed (55px) px;
-    padding: 20px 40px 20px 40px;
+    width:278 px;
+    height:55 px;
+    padding: 20px 40px;
     gap: 10px;
     border-radius: 8px;
-    opacity: 0px;
+    opacity: 1;
 }
 
 /*hero-section-right*/
@@ -85,6 +81,8 @@
     direction: rtl;
     text-wrap:wrap; 
     gap:15px;
+    width: 592px;
+    height: 370px;
 }
 
 .hero-section-right>h1 {
@@ -94,32 +92,24 @@
     text-align: right;
     width: 592px;
     height: 138px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .hero-section-right>p {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    text-align: justified;
+    text-align: justify;
 }
 
 .hero-section-right-button {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    width: Fill (592px)px;
-    height: Hug (60px)px;
     gap: 20px;
-    opacity: 0px;
-
+    opacity:1;
 }
 
-.hero-section-right-button> button {
+.hero-section-right-button>button {
     background: linear-gradient(270deg, #491C96 0%, #7839EE 100%);
-    width: Hug (175px)px;
-    height: Hug (60px)px;
     padding: 14px 40px 14px 40px;
     gap: 10px;
     border-radius: 8px;
@@ -134,11 +124,9 @@
 .hero-section-right-button>p {
     width: 230px;
     height: 48px;
-    gap: 0px;
-    opacity: 0px;
+   
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    text-align: justified;
+    line-height: 24px;    text-align: justify;
 }
 
