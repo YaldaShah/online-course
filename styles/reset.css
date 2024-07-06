@@ -18,6 +18,8 @@ body {
     font-family: 'Kalameh', sans-serif;
     width: auto;
     height: 616.33px;
+    text-align: justify;
+    text-wrap:wrap; 
 }
 
 .wrapper {
@@ -28,6 +30,7 @@ body {
     width: 100%;
     max-width: 1440px;
     margin: auto;
+    position: relative;
 }
 
 button {
@@ -44,3 +47,14 @@ button {
     line-height: normal; 
     outline: none;
 }
+
+    .end-line { 
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 30%; 
+    width: 520px; 
+    height: 1px; 
+    background-color: var(--primary-color);
+    margin-top: 150px;
+    }
