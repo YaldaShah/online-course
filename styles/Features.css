@@ -38,7 +38,11 @@
 .Features-section-content-p {
     display: flex;
     flex-direction: column;
-    padding:30px;
+}
+
+.Features-section-content-p p,
+.Features-section-content-p h1 {
+    padding: 30px 30px 0 30px;
 }
 
 /* .Features-section>img {

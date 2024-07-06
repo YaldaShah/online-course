@@ -58,3 +58,7 @@ button {
     background-color: var(--primary-color);
     margin-top: 150px;
     }
+
+    .avatar {
+        padding: 0 15px 0 0;
+    }
