@@ -1,0 +1,32 @@
+.Features-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  border: 5px solid yellow;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.Features-section-content-p {
+    display: flex;
+    flex-direction: column;
+}
+
+.Features-section-content-p-avatar{
+}
+
+.Features-section-content-p p,
+.Features-section-content-p h1 {
+    padding: 30px 30px 0 30px;
+}
+
+.Features-section:last-child ::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 520px; 
+  height: 100px; 
+  background-color: orangered;
+  margin-top: 125px;
+}

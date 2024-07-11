@@ -1,0 +1,76 @@
+.whois-section-first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;;
+    margin: 150px 50px ;
+    gap: 15px;
+}
+
+.whois-section-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 728px;
+    height: 392px;
+}
+
+.whois-section-content > div {
+    display: flex;
+    align-items: center;
+}
+
+.whois-section-title {
+    white-space: normal;
+    text-align: space-around;
+    max-width: 50%;
+    padding: 50px 0 30px 0;
+}
+
+.lila-lock {
+    
+}
+
+#lila-lock {
+    position:absolute;
+    width: 836px;
+    height: 800px;
+    top:-300px;
+    right: -120px;
+}
+
+/*-----whois-section-second*/
+
+.whois-section-second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    word-wrap: break-word;
+    object-fit: cover;
+    gap: 25px;
+    border: 2px solid ;
+    position: relative;
+}
+
+.lila-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#lila-images {
+    top:-20px;
+    left: 80px;
+    position: absolute;
+}
+
+.end-line-whois-section::after {
+  content: '';
+  position: absolute;
+  top: 550px;
+  left: 40%; 
+  width: 520px; 
+  height: 10px; 
+  background-color: var(--primary-color);
+  margin-top: 125px 0 150px 0;
+}

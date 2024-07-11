@@ -1,9 +1,7 @@
 @import url(./reset.css);
-@import url(./hero.css);
-@import url(./Features.css);
-@import url(./whois.css);
-
-:root {
-    --primary-color: #7839EE;
-    --linear:linear-gradient(90deg, rgba(73, 28, 150, 0.9) -3.29%, #491C96 13.39%, #7839EE 32.21%, #7839EE 54.27%, rgba(73, 28, 150, 0.9) 80.63%, rgba(73, 28, 150, 0.9) 100%);
-}
+@import url(./styles.css);
+@import url(./general-styles.css);
+@import url(./hero-styles.css);
+@import url(./features-styles.css);
+@import url(./whois-styles.css);
+@import url(./reviews-styles.css);

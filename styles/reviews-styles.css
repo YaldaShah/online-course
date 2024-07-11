@@ -1,0 +1,18 @@
+.reviews-section {
+    border: 1px solid orangered;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-wrap: wrap ;
+    white-space: normal;
+    width: 377px;
+    height:478px;
+    padding: 0px 32px 0px 32px;
+    justify: space-between;
+
+}
