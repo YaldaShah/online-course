@@ -14,7 +14,14 @@ body {
     border: dotted blue;
     height: 5616px;
     width: 1445;
-    word-wrap: break-word;
-    object-fit: cover;
+    /* word-wrap: break-word;
+    object-fit: cover; */
 }
 
+.divider {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px; 
+}

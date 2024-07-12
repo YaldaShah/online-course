@@ -2,17 +2,31 @@
     border: 1px solid orangered;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .reviews-content {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    text-wrap: wrap ;
     white-space: normal;
     width: 377px;
-    height:478px;
+    /* height:478px; */
     padding: 0px 32px 0px 32px;
-    justify: space-between;
-
+    text-align: justify;
+    gap: 15px;
 }
+
+.reviews-content p {
+    margin: 0 auto;
+}
+
+.reviews-content > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* .reviews-section > div:last-child */

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: relative;;
-    margin: 150px 50px ;
+    /* margin: 150px 0 ; */
     gap: 15px;
 }
 
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     gap: 16px;
     width: 728px;
-    height: 392px;
+    /* height: 392px; */
 }
 
 .whois-section-content > div {
@@ -35,7 +35,7 @@
     position:absolute;
     width: 836px;
     height: 800px;
-    top:-300px;
+    top:-250px;
     right: -120px;
 }
 
@@ -64,7 +64,7 @@
     position: absolute;
 }
 
-.end-line-whois-section::after {
+/* .end-line-whois-section::after {
   content: '';
   position: absolute;
   top: 550px;
@@ -73,4 +73,4 @@
   height: 10px; 
   background-color: var(--primary-color);
   margin-top: 125px 0 150px 0;
-}
+} */
