@@ -1,0 +1,53 @@
+.common-question-section {
+    width: 735px;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 20px;
+}
+
+.accordion {
+    width: 633px;
+    height: 24px;
+    padding: 18px;
+    border-radius: 5px;
+    outline: none;
+    background: linear-gradient(
+    to bottom,
+    rgba(73, 28, 150, 1),
+    rgba(120, 57, 238, 1)
+  );
+    border: none; 
+    color: white; 
+    font-size: 16px; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.accordion-content {
+    display: flex;
+    position: relative;
+    /* gap: 15px; */
+}
+
+/* .accordion-content button {
+    gap: 15px;
+} */
+
+.accordion-avatar{
+    position: absolute;
+    right: 10px;
+    top:10px ;
+}
+
+#minus {
+    top: 16px;
+}
+
+.panel {
+    padding: 15px;
+}
