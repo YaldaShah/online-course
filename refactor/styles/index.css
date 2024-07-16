@@ -1,9 +1,13 @@
 @import url('./reset.css');
 @import url('./fonts-loader/index.css');
+@import url('./typography.css');
+@import url('./hero-section.css');
+
 
 body {
     background-color: #010003;
     color: #ffffff;
+    direction: rtl;
 }
 
 #wrapper {
