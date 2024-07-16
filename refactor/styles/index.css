@@ -1,0 +1,16 @@
+@import url('./reset.css');
+@import url('./fonts-loader/index.css');
+
+body {
+    background-color: #010003;
+    color: #ffffff;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1216px;
+}
+
+#hero {
+    padding: 96px 0;
+}
