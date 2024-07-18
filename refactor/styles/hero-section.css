@@ -11,24 +11,34 @@
 #p-hero-section-right {
     text-align: justify;
     padding-bottom: 24px;
-}
-
-.hero-section-right-button>span {
-    display: flex;
-    flex-direction: row;
-    padding-left: 15px;
-
+    width: 592px;
+    height: 120px;
+    font-size: 20px;
 }
 
 .hero-section-right-button button {
     background: linear-gradient(to right, #491C96, #7839EE);
+    font-size: 15px;
     border-radius: 8px;
     border: none;
     padding: 14px 40px;
     height: 60px;
+    width: 166px;
     color: #FCFCFD;
+    margin-top: 28px;
+}
+.hero-section-right-button {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    gap: 20px;
 }
 
+.hero-section-right-button>span {
+    width: 230px;
+    height: 48px;
+    padding-top: 28px;
+}
 
 /* hero-section-left */
 
