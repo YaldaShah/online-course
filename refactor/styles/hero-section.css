@@ -8,6 +8,10 @@
   position: relative;
 }
 
+#hero h1 {
+  margin-bottom: 24px;
+}
+
 #p-hero-section-right {
   text-align: justify;
   padding-bottom: 24px;
@@ -27,6 +31,7 @@
   color: #fcfcfd;
   margin-top: 28px;
 }
+
 .hero-section-right-button {
   display: flex;
   flex-direction: row;
@@ -34,28 +39,21 @@
   gap: 20px;
 }
 
-.hero-section-right-button > span {
+.hero-section-right-button>span {
   width: 230px;
   height: 48px;
   padding-top: 28px;
 }
-/* 
-/* hero-section-left */
-/* #hero-section-left-frame {
-    background: linear-gradient(to top, rgba(126, 101, 170, 0.4) 0%, rgba(145, 83, 251, 0.8) 100%), url('path/to/your/image.jpg');
-    background-size: cover; /* Ensure the background image covers the entire element */
-/* background-position: center; /* Center the background image */
-/* width: 400px; */
-/* border-radius: 8px; */
 
 #hero-section-left-frame {
-    display: inline-block; 
-    border: 0.05px solid transparent;
-    border-image: linear-gradient(to bottom, rgba(126, 101, 170, 0.4) 14%, rgba(145, 83, 251, 0.8)100%);
-    border-image-slice: 1;
-    border-radius: 8px; 
-    padding: 6px; 
-    /* overflow: hidden; */
-  }
-  
-  
+  display: inline-flex;
+  background-image: linear-gradient(to bottom, rgba(126, 101, 170, 0.4) 14%, rgba(145, 83, 251, 0.8)100%);
+  border-radius: 48px;
+  padding: 1px;
+}
+
+#hero-section-left-frame img {
+  padding: 13px;
+  background-color: #010003;
+  border-radius: 48px;
+}
