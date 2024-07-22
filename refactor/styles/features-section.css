@@ -1,17 +1,18 @@
 .Features-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 32px; */
-    padding: 96px 112px;
+    gap: 32px;
+    /* padding: 96px 112px; */
 }
 
 .Features-details {
    position: relative;
     display: inline-flex;
-    background-image: linear-gradient(to top, rgba(126, 101, 170, 0.4) 14%, rgba(145, 83, 251, 0.8)100%);
+    background-image: linear-gradient(to bottom,#491C96 0,#2C115B 50%, #130828 100%);
     border-radius: 12px;
     width: 384px;
     height: 304px;
+    padding: 1px;
 }
 
 .Features-section h1{
