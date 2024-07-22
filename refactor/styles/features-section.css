@@ -2,16 +2,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
-    /* padding: 96px 112px; */
+    padding: 112px 0 ;
+}
+.Features-section p {
+    text-align: justify;
 }
 
 .Features-details {
    position: relative;
     display: inline-flex;
-    background-image: linear-gradient(to bottom,#491C96 0,#2C115B 50%, #130828 100%);
+    background-image: linear-gradient(to bottom,#491C96 0,#2C115B 54%, #130828 100%);
     border-radius: 12px;
-    width: 384px;
-    height: 304px;
     padding: 1px;
 }
 
@@ -19,12 +20,11 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 69px;
-   
 }
 
 .Features-section-content {
     background-color: #010003;
     border-radius: 12px;
     overflow: hidden;
-    padding: 15px;
+    padding: 32px;
 }
