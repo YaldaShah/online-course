@@ -1,0 +1,23 @@
+.Features-section {
+    /* border-image:linear-gradient(to top, rgba(126, 101, 170, 0.4) 14%, rgba(145, 83, 251, 0.8)100%); */
+    width: 384px;
+    height: 304px;    
+    border: 1px solid;
+    border-image-slice: 1;
+    border-radius: 8px;
+}
+
+.Features-section> h1{
+    display: inline-flex;
+
+}
+/* 
+.Features-section-content {
+    position: relative;
+    padding: 20px;
+    background: transparent; 
+    border: 5px solid transparent; /* Creates space for the border image */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    border-image: linear-gradient(to top, rgba(126, 101, 170, 0.4) 14%, rgba(145, 83, 251, 0.8) 100%);
+    border-image-slice: 1;
+} */
