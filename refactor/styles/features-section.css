@@ -28,3 +28,24 @@
     overflow: hidden;
     padding: 32px;
 }
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.divider span {
+    display: flex;
+    background-image: linear-gradient(to right, #491C96 0,#2C115B 54%, #130828 100%);
+    padding: 1px;
+    width: 260px;
+}
+
+#divider-second-span {
+    display: flex;
+    background-image: linear-gradient(to left, #491C96 0,#2C115B 54%, #130828 100%);
+    padding: 1px;
+    width: 260px;
+}
