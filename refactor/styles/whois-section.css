@@ -58,3 +58,15 @@
     font-size: 18px;
 }
 
+#circle {
+    background: radial-gradient(circle at 50% 50%, #491C9610 0%, #7839EE 100%);
+    opacity: 1;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    filter: blur(200px);
+    position: absolute;
+    left: -600px;
+    overflow: hidden;
+    background-color: rgba(120, 57, 238, 1);
+}
