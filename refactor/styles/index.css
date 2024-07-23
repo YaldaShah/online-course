@@ -3,6 +3,7 @@
 @import url('./typography.css');
 @import url('./hero-section.css');
 @import url('./features-section.css');
+@import url(./whois-section.css);
 
 
 body {

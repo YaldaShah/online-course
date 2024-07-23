@@ -1,0 +1,42 @@
+.whois-section {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 24px;
+}
+
+.avatar-deatails  {
+    column-gap: 12px;
+}
+
+.whois-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 69px;
+}
+
+.avatar-deatails {
+    display: flex;
+    flex-direction:row ;
+}
+.whois-section p {
+    margin-bottom: 24px;
+}
+
+.whois-section-up {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.whois-section-up-left {
+    position: relative;
+}
+
+.whois-section-up-left img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    z-index: -1;
+    position: absolute;
+    top: -255px;
+}
