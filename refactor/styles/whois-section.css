@@ -1,8 +1,10 @@
 .whois-section {
     display: grid;
     grid-template-rows: repeat(2,1fr);
-    gap: 24px;
+    gap: 88px;
 }
+
+/* whois-section-first */
 
 .avatar-deatails  {
     column-gap: 12px;
@@ -22,21 +24,37 @@
     margin-bottom: 24px;
 }
 
-.whois-section-up {
+.whois-section-up, .whois-section-down {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    padding: 112px 0;
 }
 
-.whois-section-up-left {
+.whois-section-up-left,
+.whois-section-down-right{
     position: relative;
 }
 
 .whois-section-up-left img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
     z-index: -1;
     position: absolute;
-    top: -255px;
+    top: -380px;
+    right:-150px;
 }
+
+.whois-section-down >div img {
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.whois-section-down-right img {
+    position: absolute;
+    top: -50px;
+}
+
+.whois-section-down h4 {
+    margin: 24px 0;
+    font-size: 18px;
+}
+
