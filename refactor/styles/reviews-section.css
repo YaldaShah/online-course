@@ -1,0 +1,24 @@
+.reviews-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 96px;
+}
+
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+    padding: 0px 32px;
+    text-align: justify;
+    gap: 16px;
+}
+
+.reviews-content p {
+    margin: 0 auto;
+}
+
+.reviews-content > div {
+    display: flex;
+    justify-content: center;
+}
+

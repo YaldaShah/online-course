@@ -1,0 +1,22 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0;
+}
+
+.about-section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.about-section-content h1 {
+    padding-bottom: 15px; 
+}
+
+.about-section-details p {
+    white-space: normal;
+    text-align: justify;
+    padding: 0 0 0 80px;
+}
