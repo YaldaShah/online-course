@@ -21,13 +21,12 @@
     gap: 5px;
 }
 
-.accordion {
+.accordion-button {
     width: 633px;
-    height: 24px;
     padding: 16px;
     border-radius: 8px;
     background: linear-gradient(
-    to bottom,
+    to left,
     rgba(73, 28, 150, 1),
     rgba(120, 57, 238, 1)
   );
@@ -37,23 +36,19 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
     /* outline: none; */
 }
 
 .accordion-content {
     display: flex;
-    position: relative;
 }
 
 .accordion-avatar {
-    position: absolute;
+    /* position: absolute;
     left: 10px;
-    top:5px ;
-}
-
-#minus {
-    padding:8px 1px;
+    top:5px ; */
 }
 
 .panel {
