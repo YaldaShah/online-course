@@ -24,3 +24,9 @@ body {
 #hero {
     padding: 96px 0;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 112px 56px 112px;
+}
