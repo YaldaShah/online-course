@@ -20,7 +20,7 @@
 }
 
 .hero-section-right-button button {
-  background: linear-gradient(to right, #491c96, #7839ee);
+  background: linear-gradient(to left, #491c96, #7839ee);
   font-size: 15px;
   border-radius: 8px;
   border: none;
@@ -96,4 +96,122 @@
   border-radius: 8px;
   padding: 16px 40px;
   font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+  grid-template-columns: 1fr;
+  padding:0;
+  align-items: center;
+  gap: 23px;
+} 
+
+.hero-section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+#hero h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+#p-hero-section-right {
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: auto;
+}
+
+.hero-section-right-button button {
+  background: linear-gradient(to left, #491c96, #7839ee);
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  height: 60px;
+  width: 100%;
+  color: #fcfcfd;
+  margin-top: 28px;
+}
+
+.hero-section-right-button {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 0 0 56px 0;
+}
+
+.hero-section-right-button>span {
+  padding:12px 0;
+  width: 100%;
+  font-size:1rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section-left {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 56px 0;
+}
+
+#hero-section-left-frame {
+  position: relative;
+  display: inline-flex;
+  background-image: linear-gradient(to bottom, rgba(126, 101, 170, 0.4) 14%, rgba(145, 83, 251, 0.8)100%);
+  border-radius: 48px;
+  padding: 1px;
+}
+
+#hero-section-left-frame img {
+  padding: 13px;
+  background-color: #010003;
+  border-radius: 48px;
+  overflow: hidden;
+}
+
+#span-up-hero-section-left {
+  position: absolute;
+  left: -89px;
+  top: -9px;
+  background-color: #7839ee;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+#span-down-hero-section-left{
+    position: absolute;
+    left:447px;
+    bottom:80px;
+    width: 278px;
+    height: 56px;
+    background-color: #7839ee;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border-radius: 8px;
+    padding:1px 40px; ;
+}
+
+#span-down-hero-section-right {
+  position: absolute;
+  right: -62px;
+  bottom: -29px;
+  background-color: #7839ee;
+  border-radius: 8px;
+  padding: 16px 40px;
+  font-weight: 300;
+}
 }

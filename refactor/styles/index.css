@@ -19,14 +19,19 @@ body {
 #wrapper {
     margin: 0 auto;
     width: 1216px;
-}
-
-#hero {
-    padding: 96px 0;
+    max-width: 100%;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 0 112px 56px 112px;
+    padding:  112px 56px 112px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #wrapper {
+    max-width: 100%;
+    padding: 0 20px 0 20px;
+}
 }

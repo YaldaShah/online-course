@@ -53,3 +53,74 @@
   margin: 24px 0;
   font-size: 18px;
 }
+
+/* --responsive max-width768px -- */
+
+@media screen and (max-width: 768px)  {
+    .whois-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* whois-section-first */
+
+.avatar-deatails {
+  column-gap: 12px;
+}
+
+.whois-section h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-deatails {
+  display: flex;
+  flex-direction: row;
+}
+
+.whois-section p {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whois-section-up,
+.whois-section-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.whois-section-up-left,
+.whois-section-down-right {
+  position: relative;
+  display: none;
+}
+
+.whois-section-up-left img {
+  display: none;
+  /* z-index: -1;
+  position: absolute;
+  top: -380px;
+  right: -150px; */
+}
+
+.whois-section-down-right img {
+ display: none;
+}
+
+.whois-section-down h4 {
+  margin: 24px 0;
+  font-size: 18px;
+}
+
+}
